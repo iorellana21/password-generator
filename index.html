@@ -1,34 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Password Generator</title>
+
+    <!-- CSS file -->
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <div class="wrapper">
+      <!-- Header -->
       <header>
         <h1>Password Generator</h1>
       </header>
+      <!-- Card -->
       <div class="card">
+        <!-- Title of Card -->
         <div class="card-header">
           <h2>Generate a Password</h2>
         </div>
+        <!-- Text block to display generated password -->
         <div class="card-body">
-          <textarea
-            readonly
-            id="password"
-            placeholder="Your Secure Password"
-            aria-label="Generated Password"
-          ></textarea>
+          <textarea readonly id="password" placeholder="Your Secure Password"
+            aria-label="Generated Password">
+          </textarea>
         </div>
+        <!-- Button for multiple prompts to generate password -->
         <div class="card-footer">
           <button id="generate" class="btn">Generate Password</button>
         </div>
       </div>
     </div>
+
+    <!-- JS file -->
     <script src="script.js"></script>
   </body>
 </html>
