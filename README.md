@@ -9,7 +9,7 @@ Application that generates a random password for a user based on the criteria ch
 ## What Was Done
 Created generatePassword function that contains the process of generating a random password once the 'Generate Password' button has been clicked and questions have been answered.
 
-Added console.logs() throughout the generatePassword function keep track of user input, creation of password and for debugging.
+Added console.logs() throughout the generatePassword function to keep track of user input, creation of password and for debugging.
 
 ---
 ## Process
